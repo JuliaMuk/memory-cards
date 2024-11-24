@@ -1,6 +1,6 @@
 {
   "name": "react-first",
-  "homepage": "https://juliamuk.github.io/memory-cards/build",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

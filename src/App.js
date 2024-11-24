@@ -7,7 +7,7 @@ import { GamePage,FirstPage } from './pages';
 
 function App() {  
   return (
-    <BrowserRouter basename='https://juliamuk.github.io/memory-cards/build'>
+    <BrowserRouter basename="/build">
       <Routes>
         <Route path="/" element={<FirstPage/>} />
         <Route path="/game" element={<GamePage/>} />              
