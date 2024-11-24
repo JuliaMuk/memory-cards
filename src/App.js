@@ -7,7 +7,7 @@ import { GamePage,FirstPage } from './pages';
 
 function App() {  
   return (
-    <BrowserRouter basename="/build">
+    <BrowserRouter basename="/memory-cards/build">
       <Routes>
         <Route path="/" element={<FirstPage/>} />
         <Route path="/game" element={<GamePage/>} />              
