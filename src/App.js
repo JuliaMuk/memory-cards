@@ -1,19 +1,19 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
 import './style.css';
-import Grid from './components/Grid';
-import {images, visibleItems, finishedItems} from "./data.js"
+import { GamePage,FirstPage } from './pages';
 
 
-
-function App() {
+function App() {  
   return (
-    <div className="App">
-      <section className='game container'>
-        <Grid 
-        images={images} 
-        visibleItems={visibleItems}  finishedItems={finishedItems}
-        />
-      </section>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<FirstPage/>} />
+        <Route path="game" element={<GamePage/>} />              
+        <Route path="*" element={<FirstPage/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

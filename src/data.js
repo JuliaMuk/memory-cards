@@ -43,7 +43,7 @@ const images = [{
   'url': img6,
 }];
 
-const visibleItems = ['hX_hf2lPpUU', '3tYZjGSBwbk'];
-const finishedItems = ['YdAqiUkUoWA', 'YdAqiUkUoWA1', 'w1JE5duY62M', 'w1JE5duY62M1'];
+const visibleItems = [];
+const finishedItems = [];
 
 export {images, visibleItems, finishedItems}
