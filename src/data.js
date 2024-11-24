@@ -43,7 +43,8 @@ const images = [{
   'url': img6,
 }];
 
-const visibleItems = [];
-const finishedItems = [];
+images.sort(() => Math.random() - 0.5)
 
-export {images, visibleItems, finishedItems}
+
+
+export {images}
